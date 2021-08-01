@@ -9,6 +9,25 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+h1, h2, h3, h4, p, ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: block;
+}
 
 /* header */
 .header {
@@ -48,6 +67,10 @@
   line-height: 25px;
   font-size: 18;
   font-weight: normal;
+}
+
+.header>h5 {
+  font-size: 18px;
 }
 
 .header__link {
@@ -291,7 +314,7 @@ font-weight: bold;
 .footer__list {
   padding-left: 0;
   list-style: none;
-
+  display: block;
 }
 
 .logo_place_footer>img {

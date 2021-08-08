@@ -1,0 +1,19 @@
+.cards__item {
+  margin-right: 100px;
+  padding-top: 60px;
+  text-align: center;
+  box-sizing:content-box;
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.cards__item:nth-of-type(3) {
+  margin-right: 0;
+}
+
+.cards__item:last-of-type {
+  margin-right: 0;
+}

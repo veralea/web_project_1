@@ -1,4 +1,7 @@
 .khan__book-pic {
 margin-right: 48px;
 height: inherit;
+width: 620px;
+object-fit: cover;
+object-position: left top;
 }
